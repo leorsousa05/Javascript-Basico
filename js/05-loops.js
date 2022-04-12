@@ -6,7 +6,6 @@ for         -> para
 */
 
 // Exemplo loop while (enquanto)
-
 console.log("while");
 
 // Variável de controle do loop
