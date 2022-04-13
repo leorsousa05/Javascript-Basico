@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript - Eventos</title>
+
+</head>
+<style>
+    .modo-noturno {
+        background-color: black;
+        color: white;
+    }
+</style>
+<body>
+    <h1>Eventos</h1>
+    <p>Eventos são interações/fenômenos que ocorrem na página. Ao monitorar e manipular eventos, o JS pode reagir ao que acontece.</p>
+    <hr>
+
+    <h2 id="subtitulo-exemplo01">Exemplo 01: detectando eventos</h2>
+    <p id="mensagem"></p>
+
+    <hr>
+
+    <h2>Exemplo 02: Modo Noturno</h2>
+    <button id="noturno">Ativar</button>  
+
+    <hr>
+
+
+    <h2>Exemplo 03: Formulário (simulação de cadastro)</h2>
+    
+    <form action="" method="post">
+        <p>
+            <label for="nome">Nome do aluno:</label>
+            <input required maxlength="30" type="text" name="nome" id="nome">
+        </p>
+
+        <p>
+            <label for="nota1">Nota 1:</label>
+            <input required type="number" name="nota1" id="nota1" min="0" max="10" step="0.1">
+       
+            <label for="nota2">Nota 2:</label>
+            <input required type="number" name="nota2" id="nota2" min="0" max="10" step="0.1">
+        </p>
+
+        <button type="submit" id="enviar" name="enviar">Enviar dados</button>
+    </form>
+	
+    <section>
+        <h2>Alunos:</h2>
+        <div id="resultados"></div>
+    
+    </section>
+
+    <hr>
+
+    <h2>Referências</h2>
+    <ul>
+        <li><b>Eloquent JavaScript:</b> 
+			<a href="https://github.com/braziljs/eloquente-javascript/blob/master/chapters/14-manipulando-eventos.md" target="_blank">
+			Manipulando Eventos</a>
+		</li>
+        <li><b>MDN:</b> 
+			<a href="https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Elementos_construtivos/Events" target="_blank">
+			Introdução a eventos
+			</a>
+		</li>
+    </ul>
+
+    <script src="js/08-manipulando-eventos.js"></script>
+
+</body>
+</html>

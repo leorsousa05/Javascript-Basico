@@ -58,7 +58,7 @@ linha();
     return numero * 2;
 }; */
 
-// VERSÃO 2: 
+// VERSÃO 2: Arrow Function
 /* const dobra = (numero) => {
     let resultado = numero * 2;
     return resultado;

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>JavaScript - DOM</title>
+<style>
+figure { margin: 0; }    
+img { max-width: 100%; }
+
+.destaque-item {
+    color: purple;
+    background-color: lightblue;
+    border: solid 1px;
+    padding: 3px;
+    margin: 3px 0;
+}
+</style>
+</head>
+<body>
+    <h1 id="titulo-principal">
+        Manipulando o DOM</h1>
+    <hr>
+    <h2>Conceito Geral</h2>
+    <p>O Modelo de Objeto de Documento (DOM) é uma representação estruturada do documento como uma árvore.</p>
+
+    <figure>
+		<a href="https://github.com/braziljs/eloquente-javascript/blob/master/chapters/13-document-object-model.md" target="_blank">
+			<img src="https://raw.githubusercontent.com/braziljs/eloquente-javascript/master/img/html-tree.jpg" alt="">
+		</a>
+        <figcaption>Representação do DOM</figcaption>
+    </figure>
+
+    <p>O DOM possui métodos que permitem acesso à árvore, para que eles possam alterar a estrutura, estilo e conteúdo do documento.</p>
+    <hr>
+
+    <h2>Exemplos diversos</h2>
+    <p>Usamos HTML para estruturar e CSS para estilizar.</p>
+    <p>JavaScript é uma linguagem de programação para projetos web.</p>
+    
+    <div>
+        <h2>Back-End</h2>
+        <p>Área de desenvolvimento com tecnologias de servidor.</p>
+    </div>
+    <hr>
+
+    <h3>Editores</h3>
+    <ul id="lista-editores">
+        <li>VS Code</li>
+        <li>Atom</li>
+        <li>Sublime</li>
+        <li>Brackets</li>
+    </ul>
+    <p>Desenvolvimento <b>Front-End</b> - 2022.</p>
+
+    <hr>
+
+    <h2>Referências</h2>
+    <ul>
+        <li><b>Eloquent JavaScript:</b> 
+			<a href="https://github.com/braziljs/eloquente-javascript/blob/master/chapters/13-document-object-model.md" target="_blank">
+			O Document Object Model
+			</a> 
+		</li>
+        <li><b>MDN</b> 
+			<a href="https://developer.mozilla.org/pt-BR/docs/DOM/Referencia_do_DOM" target="_blank">
+			Modelo de Objeto de Documento (DOM)
+			</a>
+		</li>
+        <li><b>Tableless:</b> 
+			<a href="https://tableless.com.br/entendendo-o-dom-document-object-model/" target="_blank">
+			Entendendo o DOM
+			</a>
+		</li>
+    </ul>
+
+    <script src="js/07-manipulando-o-dom.js"></script>
+
+</body>
+</html>
