@@ -11,6 +11,8 @@
         width: 549px;
     }
 </style>
+<link rel="stylesheet" href="slick/slick.css">
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   
 </head>
    
@@ -35,6 +37,20 @@
     </div>
 </div>    
 
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="slick/slick.min.js"></script>
+<script src="js/03-exemplo.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+      $('#slider').slick({
+        autoplay: true,
+        centerMode: true,
+        mobileFirst: true,
+        responsive: true
+      });
+    });
+  </script>
 
 </body>
     
