@@ -60,3 +60,19 @@ if(media < 3)
 }
 console.log(desempenho
     )
+
+// Exemplo 4: Operador Ternário.
+let notas = 3;
+
+// No operador ternário, colocamos direto a condição
+// sendo assim o operador "?" significa "então", exemplo:
+// notas <= 5 ? "você repetiu de ano"
+// Se nota menor ou igual a 5 ENTÃO "Você repetiu de ano"
+// E logo após, obrigatoriamente, colocamos o operador ":"
+// Que é o "else" das condicionais, assim temos uma condicional
+// Em um só linha.
+console.log(notas <= 5 ? "Você repetiu de ano" : "Você passou de ano" )
+
+// Caso queira fazer uma condicional com só uma condição, então
+// usamos o "&&" e assim só ira fazer uma condição
+notas <= 5 && "Você repetiu de ano."
