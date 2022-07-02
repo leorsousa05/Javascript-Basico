@@ -18,3 +18,7 @@ Estudo de Javascript básico.
 7. Manipulação de DOM(Document Object Model) - Leitura e alteração de conteúdo de classes, id's e tags via Javascript.
 
 8. Manipulação de Eventos - Monitor de Eventos(addEventListener)
+
+## Javascript Avançado
+
+Conteúdo para próxima leva de estudos: https://github.com/leorsousa05/ECMASCRIPT
